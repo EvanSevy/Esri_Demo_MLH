@@ -37,11 +37,11 @@ require([
     var trailheadsLabels = {
       symbol: {
         type: "text",
-        color: "#FFFFFF",
-        haloColor: "#5E8D74",
+        color: "#5E8D74",
+        haloColor: "#FF8D74",
         haloSize: "5px",
         font: {
-          size: "16px",
+          size: "32px",
           family: "Noto Sans",
           style: "italic",
           weight: "normal"
