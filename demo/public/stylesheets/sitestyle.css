@@ -1,9 +1,64 @@
-body {
-    padding: 20px;
-    background-color: blue;
-}
 
-a {
-    color: green;
+html, body{
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    height: 100%;
+    background-color: #666;
+  }
+
+  p {
+    color: white;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+  }
+
+  label{
+    font-size: 1.1em;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(14, 68, 14);
+    text-shadow: 1px 2px #000;
+  }
+
+  input{
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
+  #sidebar { 
+    margin: 10px 5px 0px 10px;
+    border: solid black 3px;
+    background-color: #3d8;
     
-}
+    width: 25%; 
+    height: 100%;
+    padding: 15px;
+    float: left;
+  }
+  
+  #viewDiv { 
+    padding: 10px;
+    margin: 5px;
+    height: 100%;
+    width: 70%;
+  }
+
+  #homepage-jumbo-header{
+    background-image: url("/jumbo-img-1.jpg");
+    background-size: cover;
+    height: 350px;;
+  }
+
+  #jumbo-text-header{
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  #intro-card{
+    max-width: 1200px;
+    display: flex;
+    flex: 1 1 auto;
+
+  }
